@@ -1,5 +1,5 @@
 # Fairytale Generator ✨📚🌈
-Welcome to the Fairytale Generator, a magical app that creates unique stories based on user-provided keywords! 
+Welcome to the Fairytale Generator, a magical app that creates unique stories based on user-provided keywords! <br/>
 At the heart of this app is the **Ollama Llama2 API**, a cutting-edge **Large Language Model** (LLM) that generates high-quality, imaginative stories. By sending dynamic prompts to the Llama2 model, the app leverages the power of advanced natural language processing (NLP) to craft captivating fairytales in real-time.  Built using **React** for a smooth and interactive frontend experience, with **GSAP (GreenSock Animation Platform)** styling it with cute, engaging CSS, the app offers an immersive experience that combines functionality with an artistic touch.
 
 **Technologies**
