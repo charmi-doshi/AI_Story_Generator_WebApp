@@ -14,23 +14,27 @@ Prompting Llama2: The app sends these keywords as a dynamic text prompt to the O
 Text Generation: The Ollama Llama2 model processes the prompt and returns a generated fairytale that matches the theme and tone described by the user.<br/>
 Frontend Rendering: The story is displayed interactively using React, with GSAP animations enhancing the visual experience as the story progresses.<br/>
 
-**Demo**<br/>
-The basic landing page
+**Demo**<br/><br/>
+The basic landing page<br/>
 ![Screenshot (89)](https://github.com/user-attachments/assets/cfa5ccb6-195e-416d-bd4d-544a41f1226f)
 
-<br/>
+<br/><br/>
 After generating the story
-![Screenshot (82)](https://github.com/user-attachments/assets/4d8559ff-cd85-40da-b16a-79dd1e0b7cc0)
+<br/>
+![Screenshot (82)](https://github.com/user-attachments/assets/40f2f115-e934-4beb-a46d-033d4336bb20)
+
 <br/>
 
-**Some possible Errors like** <br/>
+**Some possible Errors like** <br/><br/>
 No prompt given 
+<br/>
 ![Screenshot (88)](https://github.com/user-attachments/assets/3dc3359f-9216-4861-bf22-e5d180d715f3)
-<br/>
+<br/><br/>
 Error in generating the story
-![Screenshot (86)](https://github.com/user-attachments/assets/a518d437-85d6-42d6-b9bd-10d367e6530d)
 <br/>
+![Screenshot (86)](https://github.com/user-attachments/assets/a518d437-85d6-42d6-b9bd-10d367e6530d)
+<br/><br/>
 
-Offensive language inputted by the user
+Offensive language inputted by the user<br/>
 ![Screenshot (87)](https://github.com/user-attachments/assets/8d12fdcf-170f-4b66-b3ac-2c6a2ec07812)
 
