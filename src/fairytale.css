@@ -4,7 +4,7 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-image: url('./sky.png');
+  background-image: url('./sky.jpg');
   background-color: #121212; /* Dark background */
   color: #f1f1f1; /* Light text */
 
@@ -12,11 +12,12 @@ body {
 
 .header {
   margin-bottom: 30px;
+  margin-top: 80px;
 }
 
 .header h1 {
   font-size: 36px;
-  color: #bb86fc; /* Light purple for heading */
+  color:  #f1f1f1;; /* Light purple for heading */
 }
 
 .header p {
@@ -36,20 +37,20 @@ input {
   margin-right: 10px;
   border: 1px solid #444;
   border-radius: 5px;
-  background-color: #333; /* Dark input field */
-  color: #f1f1f1; /* Light text inside input */
+  background-color: #333; 
+  color: #f1f1f1; 
 }
 
 input::placeholder {
-  color: #b0b0b0; /* Placeholder text color */
+  color: #b0b0b0; 
 }
 
 button {
     
   padding: 10px 20px;
   font-size: 16px;
-  background: linear-gradient(45deg,#9108a3, #4b9cff);; /* Gradient background */
-  color: white;
+  background: linear-gradient(45deg,#9108a3, #4b9cff);
+  color: #f1f1f1;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -57,25 +58,24 @@ button {
 }
 
 button:disabled {
-  background: linear-gradient(45deg, #444, #555); /* Lighter gradient when disabled */
+  background: linear-gradient(45deg, #444, #555); 
   cursor: not-allowed;
 
 }
 
 button:hover:enabled {
-  transform: scale(1.05); /* Slightly enlarge button on hover */
-  background: linear-gradient(45deg, #e83cff, #2f6bb3); /* Darker gradient on hover */
-  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+  transform: scale(1.05); 
+  background: linear-gradient(45deg, #e83cff, #2f6bb3); 
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3); 
 }
 
 .response-card {
     margin-top: 30px;
     padding: 2rem;
-    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
-    backdrop-filter: blur(10px); /* Apply blur for glass effect */
-    border: 2px solid  #6200ea; /* Neon border color */
-    border-image: linear-gradient(45deg, #6200ea, #bb86fc) 1; /* Neon gradient border */
-    box-shadow: 0 4px 20px rgba(187, 134, 252, 0.4); /* Soft glow for card */
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px); 
+    border-radius: 50px;
+    box-shadow: 0 1px 1px #444; 
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -85,22 +85,22 @@ button:hover:enabled {
   .response-card h2 {
     font-size: xx-large;
     text-align: center;
-    color: #bb86fc; /* Light purple for title */
-    text-shadow: 0 0 10px rgba(187, 134, 252, 0.5); /* Glowing text effect */
+    color: #f1f1f1;
+    text-shadow: 0 0 10px rgba(187, 134, 252, 0.5); 
   }
   
   .response-card p {
-    font-size: 18px;
-    color: #f1f1f1; /* Light text for the story */
+    font-size: 20px;
+    color: #f1f1f1;
 
   }
   
   .error {
-    color: #cf6679; /* Light red for error text */
+    color: #cf6679; 
     font-weight: bold;
   }
   
   p {
     font-size: 16px;
-    color: #f1f1f1; /* Light text color for paragraphs */
+    color: #f1f1f1; 
   }
