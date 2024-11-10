@@ -1,17 +1,17 @@
 import './styles.css'
 import React, { useState } from 'react';
-import generateStory from './generateStory';  // Import the story generation function
+import generateStory from './generateStory';  
 
 function StoryComponent() {
-  const [story, setStory] = useState('');  // State for generated story
-  const [loading, setLoading] = useState(false);  // State for loading
-  const [error, setError] = useState('');  // State for error messages
-  const [prompt, setPrompt] = useState('');  // State for the user-input prompt
+  const [story, setStory] = useState(''); 
+  const [loading, setLoading] = useState(false);  
+  const [error, setError] = useState('');  
+  const [prompt, setPrompt] = useState('');  
 
   // Function to handle generating the story
   const handleGenerateStory = async () => {
     setLoading(true);
-    setError('');  // Reset any previous error messages
+    setError(''); 
 
     if (prompt.trim() === '') {
       setError('Please provide a prompt!');
@@ -19,15 +19,16 @@ function StoryComponent() {
       return;
     }
 
-    const generatedStory = await generateStory(prompt);  // Call the generateStory function with the prompt
+    const generatedStory = await generateStory(prompt); 
 
     if (generatedStory) {
-      setStory(generatedStory);  // Set the generated story in the state
+       // Set the generated story in the state
+      setStory(generatedStory); 
     } else {
-      setError('Failed to generate the story');  // Handle failure case
+      setError('Failed to generate the story');  
     }
 
-    setLoading(false);  // Reset loading state
+    setLoading(false);  
   };
 
   return (
@@ -41,7 +42,7 @@ function StoryComponent() {
       {/* Textbox to input custom prompt */}
       <input type="text"
         value={prompt}
-        onChange={(e) => setPrompt(e.target.value)}  // Update the prompt state
+        onChange={(e) => setPrompt(e.target.value)}  
         placeholder="Enter your story prompt here..."
        
       />
@@ -55,7 +56,7 @@ function StoryComponent() {
 
       <div >
         <div >
-      {/* Error message */}
+      
       {error && <p style={{ color: 'red' }}>{error}</p>}
 
       {/* Display the generated story */}
