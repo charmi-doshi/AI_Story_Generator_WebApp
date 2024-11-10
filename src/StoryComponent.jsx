@@ -24,7 +24,7 @@ function StoryComponent() {
 
     if (generatedStory) {
        // Set the generated story in the state
-       console.log(generatedStory)
+      //  console.log(generatedStory)
       setStory(generatedStory); 
     } else {
       setError('Failed to generate the story');  
@@ -80,3 +80,4 @@ function StoryComponent() {
 }
 
 export default StoryComponent;
+

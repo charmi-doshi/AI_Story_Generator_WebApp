@@ -1,12 +1,10 @@
-/* styles.css */
 
-/* General styling */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
   background-image: url('./sky.jpg');
-  background-color: #121212; /* Dark background */
-  color: #f1f1f1; /* Light text */
+  background-color: #121212; 
+  color: #f1f1f1; 
 
 }
 
@@ -17,12 +15,12 @@ body {
 
 .header h1 {
   font-size: 36px;
-  color:  #f1f1f1;; /* Light purple for heading */
+  color:  #f1f1f1;; 
 }
 
 .header p {
   font-size: 18px;
-  color: #b0b0b0; /* Light gray for subtext */
+  color: #b0b0b0; 
 }
 
 .search-bar {
@@ -104,3 +102,4 @@ button:hover:enabled {
     font-size: 16px;
     color: #f1f1f1; 
   }
+  

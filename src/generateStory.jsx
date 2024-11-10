@@ -4,7 +4,7 @@ import axios from 'axios';
 async function generateStory(prompt) {
   const apiEndpoint = 'http://localhost:11434/api/generate';  
 
-  // Request body
+
   const data = {
     model: 'llama2',
     prompt: `Write a short story with ${prompt} in 500 words`,
@@ -29,6 +29,8 @@ async function generateStory(prompt) {
 }
 
 export default generateStory;
+
+
 
 
 
