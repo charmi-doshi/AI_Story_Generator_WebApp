@@ -7,7 +7,7 @@ async function generateStory(prompt) {
   // Request body
   const data = {
     model: 'llama2',
-    prompt: `Write a short story with ${prompt}`,
+    prompt: `Write a short story with ${prompt} in 500 words`,
     stream: false  
   };
 
